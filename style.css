@@ -33,7 +33,9 @@ body{
     padding-top: 50px
 }
 
-
+#laptop .card-title{
+    margin-top: -50px;
+}
 
 
 /* categories Section */
