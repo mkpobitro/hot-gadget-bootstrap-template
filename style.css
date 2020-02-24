@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    background: url(images/bg.png);
 }
 .container{
     margin-bottom: 50px;
@@ -32,7 +33,9 @@ body{
     padding-top: 50px
 }
 
-
+#laptop .card-title{
+    margin-top: -50px;
+}
 
 
 /* categories Section */
@@ -43,11 +46,27 @@ body{
     border-image-slice: 1;
     width: 150px;
     margin: auto;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
 }
 #categories{
     padding: 100px 0;
 }
+
 .category-box{
-    box-shadow: 2px 2px 10px lightgray;
+    box-shadow: 2px 2px 50px lightgray;
 }
+
+.bag{
+    height: 300px;
+    position: relative;
+    top: 150px;
+}
+.perfume, .shoe{
+    padding: 70px 0;
+    height: 300px;
+}
+
+.bag, .perfume, .shoe{
+    background: #fff;
+}
+
